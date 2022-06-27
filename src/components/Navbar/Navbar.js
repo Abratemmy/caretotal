@@ -42,13 +42,13 @@ function Navbar() {
             <div className={navbar ? "navbar active":"navbar"}>
                 <div className="container nav-container">
                     <div className="nav-logo">
-                        <NavLink to="/"><img src={caretotallogo} alt="caretotal logo" /></NavLink>
+                        <NavLink to="/caretotal"><img src={caretotallogo} alt="caretotal logo" /></NavLink>
                     </div>
 
                     <div className="navigation">
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className="nav-item">
-                                <NavLink to="/" exact   className="nav-links"onClick={handleClick}>Home</NavLink>
+                                <NavLink to="/caretotal" exact   className="nav-links"onClick={handleClick}>Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/about" exact  className="nav-links">About us</NavLink>
