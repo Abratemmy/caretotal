@@ -1,0 +1,107 @@
+.home-container{
+    overflow: hidden;
+}
+.home-bg-social-wrap{
+    background: var(--primaryColor);
+    padding-top: 50px;
+}
+.home-bg-social ul{
+    list-style: none;
+}
+.home-bg-social li{
+    margin: 20px 0px;
+    padding-left: 15px;
+}
+.home-bg-social a{
+    color:#fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 6px 7px 8px 7px;
+    border-radius: 50%;
+    background: transparent;
+    margin: 3px 0px;
+    font-family: var(--textFamily);
+    font-weight: bolder!important;
+    transition: 0.4s all ease-in-out
+}
+.home-bg-social a:hover{
+    color: #fff;
+    background: var(--secColor);
+    border: 1px solid var(--secColor)
+}
+.home-bg-slider{
+    overflow: hidden;
+    background: var(--blackColor);
+}
+
+.home-bg-first{
+    background:linear-gradient(180deg, rgba(2, 2, 2, 0.356), rgba(0, 0, 0, 0.459)), url("../../image/caretotalbg3.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    color:#fff;
+    /* -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; */
+}
+.home-bg-second{
+    background: url("../../image/caretotalbg1.webp");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    color:#fff;
+    /* -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; */
+}
+.home-bg-content{
+    max-width:500px;
+    color: #ffffff;
+    padding-left:5px;
+}
+.home-bg-slider-wrap h1{
+    font-size: 50px;
+    text-align: left;
+    font-family: var(--boldFamily);
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 3px 2px 1px var(--secColor);
+    line-height: 60px;
+}
+.home-bg-content p{
+    padding-top: 20px;
+    font-family: var(--textFamily);
+    font-size: 17px;
+    line-height: 30px;
+}
+.home-bg-content .button{
+    padding-top: 20px;
+}
+.home-bg-content .button button{
+    padding: 12px 22px;
+    background: var(--secColor);
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 14px;
+    font-family: var(--textFamily);
+    box-shadow: 0 5px 0 rgb(70, 2, 55);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 960px){
+    .home-bg-social-wrap{
+       display: none;
+    }
+    .home-bg-wrapper{
+        background: var(--primaryColor);
+    }
+}

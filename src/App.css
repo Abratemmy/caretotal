@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --textFamily:'Open Sans', sans-serif;
+  --primaryColor:  #248806;
+  --secColor: #63004d;
+  --blackColor: #222121;
+  --boldFamily:  'Oswald', sans-serif;
+   
 }
