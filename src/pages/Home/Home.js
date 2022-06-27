@@ -33,7 +33,7 @@ export class Home extends Component {
             <div className='col-lg-11 col-md-11 col-sm-12'>
               <div className='home-bg-slider-wrap'>
                 <Slider {...settings} className="home-bg-slider">
-                  <div className='home-bg-first'>
+                  <div className='home-bg-first home-bg'>
                     <div className='container'>
                       <div className='home-bg-content'>
                         <h1>Take The First Step To Knowledge With Us</h1>
@@ -45,7 +45,7 @@ export class Home extends Component {
                     </div>
                     
                   </div>
-                  <div className='home-bg-second '>
+                  <div className='home-bg-second home-bg '>
                     <div className='container'>
                       <div className='home-bg-content'>
                         <h1>Take The First Step To Knowledge With Us</h1>

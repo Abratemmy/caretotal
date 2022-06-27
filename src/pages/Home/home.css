@@ -33,6 +33,9 @@
     overflow: hidden;
     background: var(--blackColor);
 }
+.home-bg{
+   
+}
 
 .home-bg-first{
     background:linear-gradient(180deg, rgba(2, 2, 2, 0.356), rgba(0, 0, 0, 0.459)), url("../../image/caretotalbg3.jpg");
@@ -40,13 +43,12 @@
     height: 400px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
     padding-top: 60px;
     color:#fff;
-    /* -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .home-bg-second{
     background: url("../../image/caretotalbg1.webp");
@@ -54,13 +56,12 @@
     height: 400px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
     padding-top: 60px;
     color:#fff;
-    /* -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .home-bg-content{
     max-width:500px;
@@ -103,5 +104,21 @@
     }
     .home-bg-wrapper{
         background: var(--primaryColor);
+    }
+    /* .home-bg{
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    } */
+}
+@media screen and (max-width:760px){
+    .home-bg-slider-wrap h1{
+        font-size: 35px!important;
+        line-height: 50px;
+    }
+    .home-bg-slider-wrap p{
+        font-size: 16px!important;
     }
 }
